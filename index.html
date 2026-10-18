@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tras los pasos de Diriangén</title>
+  <meta name="description" content="Mapa interactivo en 3D de la resistencia indígena de 1523 y la herencia de su pueblo.">
+
+  <!-- Estilos de CesiumJS 1.146 (versión fija) desde el CDN oficial -->
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.146/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <h1>Tras los pasos de Diriangén</h1>
+    <p>Mapa interactivo en 3D de la resistencia indígena de 1523 y la herencia de su pueblo</p>
+  </header>
+
+  <main>
+    <!-- Mapa 3D -->
+    <section class="zona-mapa" aria-label="Mapa 3D">
+      <div id="mapa"></div>
+
+      <!-- Avisos de error o de configuración (los crea interfaz.js) -->
+      <div id="avisos" class="avisos" aria-live="polite"></div>
+
+      <!-- Panel de información del punto elegido (lo llena interfaz.js) -->
+      <aside id="panel-info" class="panel-info" aria-labelledby="panel-titulo" hidden>
+        <button type="button" id="panel-cerrar" class="panel-cerrar" aria-label="Cerrar información">×</button>
+        <p id="panel-fecha" class="panel-fecha"></p>
+        <h2 id="panel-titulo" class="panel-titulo" tabindex="-1"></h2>
+        <span id="panel-certeza" class="etiqueta-certeza"></span>
+        <div class="panel-acciones">
+          <button type="button" id="btn-ver-3d" class="boton-3d">Ver el lugar en 3D</button>
+        </div>
+        <figure id="panel-figura" class="panel-figura" hidden>
+          <img id="panel-imagen" alt="">
+          <figcaption id="panel-credito"></figcaption>
+        </figure>
+        <p id="panel-texto" class="panel-texto"></p>
+        <p class="panel-fuente">Fuente: <span id="panel-fuente"></span></p>
+      </aside>
+
+      <!-- Botones de navegación -->
+      <div id="controles-mapa" class="controles-mapa">
+        <button type="button" id="btn-acercar" title="Acercar" aria-label="Acercar">+</button>
+        <button type="button" id="btn-alejar" title="Alejar" aria-label="Alejar">−</button>
+        <button type="button" id="btn-norte" title="Poner el norte arriba" aria-label="Poner el norte arriba">N</button>
+        <button type="button" id="btn-inicio" title="Volver a la vista inicial" aria-label="Volver a la vista inicial">⌂</button>
+        <button type="button" id="btn-modelo-3d" class="btn-modelo-3d" title="Ver edificios y árboles en 3D (Google)" aria-pressed="true" hidden>3D</button>
+      </div>
+    </section>
+
+    <p class="ayuda">
+      <strong>Toca un marcador</strong> para leer su historia:
+      <span class="muestra muestra-recorrido">1</span> recorrido de 1523 ·
+      <span class="muestra muestra-batalla">?</span> posible lugar de la batalla.
+      <br>
+      <strong>Cómo moverte:</strong>
+      arrastra para desplazarte · usa la rueda o los botones + y − para acercarte ·
+      mantén <kbd>Ctrl</kbd> y arrastra para girar e inclinar · ⌂ vuelve a la vista inicial ·
+      en cada punto, <strong>Ver el lugar en 3D</strong> baja la cámara y gira alrededor del lugar.
+      <span class="ayuda-tactil">En celular: un dedo para desplazarte; dos dedos para acercarte, girar o inclinar.</span>
+    </p>
+
+    <!-- Introducción (texto provisional aprobado) -->
+    <section class="introduccion">
+      <h2>Sobre el proyecto</h2>
+      <p>
+        Tras los pasos de Diriangén es un proyecto educativo que busca representar geográficamente
+        los acontecimientos relacionados con la resistencia indígena frente a la expedición de
+        Gil González Dávila en 1523, así como explorar la herencia cultural que permanece presente
+        en distintas comunidades de Nicaragua.
+      </p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    Universidad Nacional de Ingeniería (UNI) · Historia, Memoria, Identidad y Patrimonio Nacional ·
+    Grupo 1M1-ELK-S · Prototipo, Fase 2
+  </footer>
+
+  <!-- CesiumJS 1.146 (versión fija) desde el CDN oficial -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.146/Build/Cesium/Cesium.js"></script>
+
+  <!-- Nuestro código, en este orden -->
+  <script src="js/config.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/capas.js"></script>
+  <script src="js/interfaz.js"></script>
+</body>
+</html>
