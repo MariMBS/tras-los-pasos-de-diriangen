@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Envía la dirección completa de la página a Cesium ion. Sin esto, Chrome solo envía
+       "https://marimbs.github.io/" y el token (restringido a la ruta del proyecto) responde 403. -->
+  <meta name="referrer" content="no-referrer-when-downgrade">
   <title>Tras los pasos de Diriangén</title>
   <meta name="description" content="Mapa interactivo en 3D de la resistencia indígena de 1523 y la herencia de su pueblo.">
 
@@ -78,7 +81,7 @@
 
   <footer class="pie">
     Universidad Nacional de Ingeniería (UNI) · Historia, Memoria, Identidad y Patrimonio Nacional ·
-    Grupo 1M1-ELK-S · Prototipo, Fase 2
+    Grupo 1M1-ELK-S · Prototipo, Fase 2 + vista 3D
   </footer>
 
   <!-- CesiumJS 1.146 (versión fija) desde el CDN oficial -->
