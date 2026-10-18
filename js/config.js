@@ -15,7 +15,7 @@ const CONFIG = {
   // Pega tu token entre las comillas, en lugar del texto de ejemplo.
   // No pongas aquí el "Default Token" ni un token con más permisos.
   // -----------------------------------------------------------
-  tokenCesiumIon: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6IkJveDJSVjUwU2pZMkdVOTMiLCJqdGkiOiIxNjc0ZWEyOS05YWMzLTQ5ODEtYWE2Mi1jOTZkMjQwNWMwODUiLCJpZCI6NTIyMzE0LCJzdWIiOiJzcnR1bGFsYXJnYSIsImlzcyI6Imh0dHBzOi8vYXBpLmNlc2l1bS5jb20iLCJhdWQiOiJtYXBhLWRpcmlhbmdlbi13ZWIiLCJpYXQiOjE3OTIzNjY0NjR9.1YPVLaDZubeXCsPzPby9UdQJ3ySx6m1fmWFHZD4bcOI",
+  tokenCesiumIon: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6Ik9FYkRpdk9ZTF9qSzFHLXMiLCJqdGkiOiIxNjc0ZWEyOS05YWMzLTQ5ODEtYWE2Mi1jOTZkMjQwNWMwODUiLCJpZCI6NTIyMzE0LCJzdWIiOiJzcnR1bGFsYXJnYSIsImlzcyI6Imh0dHBzOi8vYXBpLmNlc2l1bS5jb20iLCJhdWQiOiJtYXBhLWRpcmlhbmdlbi13ZWIiLCJpYXQiOjE3OTIzNjc2NjZ9.oyh132EcGskgOV7Hn7StPGhOycL9Ws7fdsXzQc6Wcmw",
 
   // Imagen satelital de Cesium ion. El número es el "asset ID".
   // El relieve (Cesium World Terrain) no necesita número: Cesium lo conoce.
