@@ -1,0 +1,430 @@
+/* =============================================================
+   estilos.css — Apariencia de "Tras los pasos de Diriangén"
+   Los colores se definen una sola vez aquí arriba (variables).
+   ============================================================= */
+
+:root {
+  --color-oscuro: #1f2a37;       /* encabezado y textos (como en el boceto) */
+  --color-texto: #1f2a37;
+  --color-texto-suave: #5b6573;
+  --color-fondo: #f3f4f6;
+  --color-blanco: #ffffff;
+  --color-borde: #9ca3af;
+  --color-enfoque: #2e86c1;      /* contorno al navegar con teclado */
+  --color-advertencia: #e67e22;  /* avisos (anaranjado) */
+  --color-advertencia-fondo: #fff4e5;
+  --color-error: #c0392b;        /* errores (rojo) */
+  --color-error-fondo: #fdecea;
+  --sombra: 0 2px 6px rgba(0, 0, 0, 0.25);
+
+  /* Marcadores (iguales a los de js/capas.js) */
+  --color-recorrido: #2e86c1;
+  --color-batalla: #e67e22;
+
+  /* Etiquetas de certeza */
+  --certeza-confirmado: #1e8449;
+  --certeza-confirmado-fondo: #e9f7ef;
+  --certeza-estimado: #8a6d0b;
+  --certeza-estimado-fondo: #fef9e7;
+  --certeza-discusion: #a04000;
+  --certeza-discusion-fondo: #fdebd0;
+
+  --ancho-panel: 340px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  color: var(--color-texto);
+  background: var(--color-fondo);
+  line-height: 1.5;
+}
+
+/* ---------- Encabezado ---------- */
+
+.encabezado {
+  background: var(--color-oscuro);
+  color: var(--color-blanco);
+  padding: 12px 20px;
+}
+
+.encabezado h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.encabezado p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  color: #d1d5db;
+}
+
+/* ---------- Mapa ---------- */
+
+.zona-mapa {
+  position: relative;
+  height: 72vh;
+  min-height: 360px;
+  background: var(--color-oscuro); /* se ve mientras carga el mapa */
+}
+
+#mapa {
+  position: absolute;
+  inset: 0;
+}
+
+/* Botones +, −, N y ⌂ (arriba a la derecha) */
+.controles-mapa {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 2;
+}
+
+.controles-mapa button {
+  width: 40px;
+  height: 40px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1;
+  color: var(--color-texto);
+  background: var(--color-blanco);
+  border: 1px solid var(--color-borde);
+  border-radius: 6px;
+  box-shadow: var(--sombra);
+  cursor: pointer;
+}
+
+.controles-mapa button:hover {
+  background: var(--color-fondo);
+}
+
+/* Botón 3D: más pequeño de letra y resaltado cuando está activo */
+.controles-mapa .btn-modelo-3d {
+  font-size: 0.95rem;
+}
+
+.controles-mapa .btn-modelo-3d[aria-pressed="true"] {
+  color: var(--color-blanco);
+  background: var(--color-oscuro);
+}
+
+/* Con el panel abierto, los botones se corren a su izquierda */
+.con-panel .controles-mapa {
+  right: calc(var(--ancho-panel) + 24px);
+}
+
+.controles-mapa button:focus-visible,
+.aviso-cerrar:focus-visible,
+.panel-cerrar:focus-visible {
+  outline: 3px solid var(--color-enfoque);
+  outline-offset: 2px;
+}
+
+/* Avisos (arriba a la izquierda, sin tapar los botones) */
+.avisos {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: min(420px, calc(100% - 88px));
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 3;
+}
+
+.aviso {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+  background: var(--color-advertencia-fondo);
+  border-left: 5px solid var(--color-advertencia);
+  border-radius: 6px;
+  box-shadow: var(--sombra);
+  font-size: 0.9rem;
+}
+
+.aviso-error {
+  background: var(--color-error-fondo);
+  border-left-color: var(--color-error);
+}
+
+.aviso p {
+  margin: 0;
+  flex: 1;
+}
+
+.aviso-cerrar {
+  border: none;
+  background: transparent;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--color-texto);
+  cursor: pointer;
+}
+
+/* ---------- Panel de información ---------- */
+
+.panel-info {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  bottom: 40px; /* deja ver los créditos y el botón de pantalla completa */
+  width: var(--ancho-panel);
+  max-width: calc(100% - 24px);
+  overflow-y: auto;
+  padding: 16px 18px;
+  background: var(--color-blanco);
+  border: 1px solid var(--color-borde);
+  border-radius: 8px;
+  box-shadow: var(--sombra);
+  z-index: 3;
+}
+
+.panel-cerrar {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-texto);
+  cursor: pointer;
+}
+
+.panel-cerrar:hover {
+  background: var(--color-fondo);
+}
+
+.panel-fecha {
+  margin: 0 32px 4px 0;
+  font-size: 0.9rem;
+  color: var(--color-texto-suave);
+}
+
+.panel-titulo {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+.panel-titulo:focus {
+  outline: none;
+}
+
+.etiqueta-certeza {
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+}
+
+.certeza-confirmado {
+  color: var(--certeza-confirmado);
+  background: var(--certeza-confirmado-fondo);
+}
+
+.certeza-estimado {
+  color: var(--certeza-estimado);
+  background: var(--certeza-estimado-fondo);
+}
+
+.certeza-en_discusion {
+  color: var(--certeza-discusion);
+  background: var(--certeza-discusion-fondo);
+}
+
+.panel-acciones {
+  margin-top: 12px;
+}
+
+.boton-3d {
+  width: 100%;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 600;
+  color: var(--color-blanco);
+  background: var(--color-oscuro);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.boton-3d:hover {
+  background: #374151;
+}
+
+.boton-3d[data-estado="girando"] {
+  background: var(--color-batalla);
+}
+
+.boton-3d:disabled {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.boton-3d:focus-visible {
+  outline: 3px solid var(--color-enfoque);
+  outline-offset: 2px;
+}
+
+.panel-figura {
+  margin: 12px 0 0;
+}
+
+.panel-figura img {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.panel-figura figcaption {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: var(--color-texto-suave);
+}
+
+.panel-texto {
+  margin: 12px 0;
+}
+
+.panel-fuente {
+  margin: 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-texto-suave);
+}
+
+/* Muestras de marcadores en la ayuda */
+.muestra {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--color-blanco);
+  border: 2px solid var(--color-blanco);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--color-borde);
+  vertical-align: middle;
+}
+
+.muestra-recorrido {
+  background: var(--color-recorrido);
+}
+
+.muestra-batalla {
+  background: var(--color-batalla);
+}
+
+/* ---------- Ayuda e introducción ---------- */
+
+.ayuda {
+  margin: 0;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  color: var(--color-texto-suave);
+  background: var(--color-blanco);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ayuda-tactil {
+  display: block;
+}
+
+kbd {
+  padding: 1px 5px;
+  font-family: inherit;
+  font-size: 0.85em;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  background: var(--color-fondo);
+}
+
+.introduccion {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.introduccion h2 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.introduccion p {
+  margin: 0;
+}
+
+/* ---------- Pie de página ---------- */
+
+.pie {
+  padding: 14px 20px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--color-texto-suave);
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ---------- Pantallas pequeñas (celular) ----------
+   Solo lo básico; la versión para celular se pule en la Fase 7. */
+@media (max-width: 600px) {
+  .encabezado {
+    padding: 10px 16px;
+  }
+
+  .encabezado h1 {
+    font-size: 1.2rem;
+  }
+
+  .encabezado p {
+    font-size: 0.85rem;
+  }
+
+  .zona-mapa {
+    height: 62vh;
+  }
+
+  /* En celular el panel sube desde abajo como un cajón */
+  .panel-info {
+    top: auto;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    width: auto;
+    max-width: none;
+    max-height: 60%;
+  }
+
+  .con-panel .controles-mapa {
+    right: 12px;
+  }
+
+  .ayuda,
+  .introduccion,
+  .pie {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
