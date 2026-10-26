@@ -6,13 +6,69 @@
     "categoria": "recorrido",
     "fecha": "Enero de 1522 a abril de 1523",
     "orden": 1,
-    "coordenadas": [-84.98, 9.92],
+    "coordenadas": [
+      -84.98,
+      9.92
+    ],
     "distancia_3d": 25000,
     "certeza": "confirmado",
+    "antes": "Antes de 1522, la costa del Pacífico de Nicaragua y Nicoya ya estaba habitada por pueblos llegados de Mesoamérica. Los primeros fueron los chorotegas; después llegaron los nicaraos.",
     "texto": "Gil González Dávila salió de Panamá en enero de 1522 buscando un paso entre los dos océanos. Avanzó por Costa Rica con unos cien españoles, recogiendo oro y bautizando gente. Desde el golfo de Nicoya siguió hacia el norte, rumbo a las tierras del cacique Nicarao.",
+    "linea_tiempo": [
+      {
+        "cuando": "Hacia el año 800 d.C.",
+        "que": "Llegan los chorotegas, de lengua mangue, al Pacífico de Nicaragua.",
+        "fuente": "Cruz Olivas (2018)"
+      },
+      {
+        "cuando": "Después",
+        "que": "Llegan los nicaraos, de lengua náhuatl, y se asientan sobre todo en Rivas.",
+        "fuente": "Cruz Olivas (2018)"
+      },
+      {
+        "cuando": "Enero de 1522",
+        "que": "Gil González Dávila sale de Panamá buscando un paso entre los dos océanos.",
+        "fuente": "Arellano (1970)"
+      },
+      {
+        "cuando": "1522 – 1523",
+        "que": "La expedición avanza por Costa Rica con unos cien españoles.",
+        "fuente": "Arellano (1970)"
+      }
+    ],
     "fuente": "Arellano (1970)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Central_America_-_Cornelius_van_Wytfliet_1597.jpg/1280px-Central_America_-_Cornelius_van_Wytfliet_1597.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Central_America_-_Cornelius_van_Wytfliet_1597.jpg",
+        "tipo": "mapa",
+        "descripcion": "Mapa de Centroamérica de 1597, de Cornelius van Wytfliet.",
+        "credito": "Cornelis van Wytfliet · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Golfo_de_Nicoya.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Golfo_de_Nicoya.JPG",
+        "tipo": "foto",
+        "descripcion": "El golfo de Nicoya, en Costa Rica.",
+        "credito": "Rauldmo · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg/1280px-Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg",
+        "tipo": "dibujo",
+        "descripcion": "Grabado del «Sumario de la natural historia de las Indias» de Gonzalo Fernández de Oviedo (1526).",
+        "credito": "Gonzalo Fernández de Oviedo · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gil_Gonzalez_Davila.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Gil_Gonzalez_Davila.JPG",
+        "tipo": "dibujo",
+        "descripcion": "Retrato de Gil González Dávila, capitán de la expedición (dibujo de su época).",
+        "credito": "Autor desconocido · Dominio público · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "rivas-nicarao",
@@ -21,12 +77,68 @@
     "categoria": "recorrido",
     "fecha": "5 de abril de 1523",
     "orden": 2,
-    "coordenadas": [-85.826, 11.437],
+    "coordenadas": [
+      -85.826,
+      11.437
+    ],
     "certeza": "confirmado",
+    "antes": "Rivas era tierra de los nicaraos, un pueblo de lengua náhuatl. Eran vecinos de los chorotegas de Diriangén, que vivían más al norte, en las tierras altas.",
     "texto": "A inicios de abril de 1523 la expedición llegó a las tierras del cacique Nicarao, en Rivas. Nicarao prefirió dialogar con los españoles y fue bautizado junto con miles de los suyos. Según la arqueóloga Ivonne Miranda Tapia, ese diálogo también fue una forma de resistencia.",
+    "linea_tiempo": [
+      {
+        "cuando": "Antes de 1523",
+        "que": "Los nicaraos viven en el istmo de Rivas, junto al lago.",
+        "fuente": "Cruz Olivas (2018)"
+      },
+      {
+        "cuando": "5 de abril de 1523",
+        "que": "Gil González llega a las tierras de Nicarao. Nicarao dialoga y es bautizado junto con miles de los suyos.",
+        "fuente": "Arellano (2023)"
+      },
+      {
+        "cuando": "18 de abril de 1523",
+        "que": "La gente de Nicarao ataca a los españoles cuando se retiran.",
+        "fuente": "Arellano (2023)"
+      },
+      {
+        "cuando": "2023",
+        "que": "La Ley N.º 1149 declara Héroe Indígena al cacique Nicarao.",
+        "fuente": "Asamblea Nacional (2023)"
+      }
+    ],
     "fuente": "Arellano (2023); Miranda Tapia y Díaz Pérez (2021)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Monument_of_cacique_macuilmiquiztli_ruler_of_the_nicarao.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Monument_of_cacique_macuilmiquiztli_ruler_of_the_nicarao.jpg",
+        "tipo": "representacion",
+        "descripcion": "Monumento a un gobernante nicarao (Macuilmiquiztli).",
+        "credito": "MiguelRamirez77 · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/PreColumbian_Nicarao_vase_featuring_Quetzalcoatl_800_1350_AD.jpg/1280px-PreColumbian_Nicarao_vase_featuring_Quetzalcoatl_800_1350_AD.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:PreColumbian_Nicarao_vase_featuring_Quetzalcoatl_800_1350_AD.jpg",
+        "tipo": "objeto",
+        "descripcion": "Vasija nicarao (800–1350 d.C.) hallada cerca de la laguna de Asososca, Managua.",
+        "credito": "MiguelRamirez77 · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ometepe_San_Jorge.jpg/1280px-Ometepe_San_Jorge.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Ometepe_San_Jorge.jpg",
+        "tipo": "foto",
+        "descripcion": "Los volcanes de Ometepe vistos desde San Jorge, en Rivas.",
+        "credito": "Martin Kulldorff · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gil_Gonzalez_Davila.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Gil_Gonzalez_Davila.JPG",
+        "tipo": "dibujo",
+        "descripcion": "Retrato de Gil González Dávila, capitán de la expedición (dibujo de su época).",
+        "credito": "Autor desconocido · Dominio público · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "cocibolca-mar-dulce",
@@ -35,13 +147,45 @@
     "categoria": "recorrido",
     "fecha": "Abril de 1523",
     "orden": 3,
-    "coordenadas": [-85.72, 11.5],
+    "coordenadas": [
+      -85.72,
+      11.5
+    ],
     "distancia_3d": 12000,
     "certeza": "confirmado",
+    "antes": "El gran lago separaba las tierras bajas, por donde caminaban los españoles, de las tierras altas donde vivían los dirianes.",
     "texto": "Los españoles llamaron «Mar Dulce» al gran lago que hoy conocemos como Cocibolca o lago de Nicaragua. Ellos venían caminando por la parte baja, junto al lago, mientras los dirianes vivían en las tierras altas de la meseta.",
+    "linea_tiempo": [
+      {
+        "cuando": "Abril de 1523",
+        "que": "Los españoles ven el gran lago y lo llaman «Mar Dulce».",
+        "fuente": "Por confirmar"
+      },
+      {
+        "cuando": "Hoy",
+        "que": "Se le conoce como lago Cocibolca o lago de Nicaragua.",
+        "fuente": ""
+      }
+    ],
     "fuente": "Por confirmar (contenido de la Etapa 3)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Lake_Nicaragua_Isla_de_Ometepe.jpg/1280px-Lake_Nicaragua_Isla_de_Ometepe.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Lake_Nicaragua_Isla_de_Ometepe.jpg",
+        "tipo": "foto",
+        "descripcion": "El lago Cocibolca con oleaje, visto desde la isla de Ometepe.",
+        "credito": "Captain Herbert · CC BY-SA 3.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ometepe_San_Jorge.jpg/1280px-Ometepe_San_Jorge.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Ometepe_San_Jorge.jpg",
+        "tipo": "foto",
+        "descripcion": "Los volcanes de Ometepe vistos desde San Jorge, en Rivas.",
+        "credito": "Martin Kulldorff · CC BY-SA 4.0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "nochari-visita",
@@ -50,12 +194,51 @@
     "categoria": "recorrido",
     "fecha": "Abril de 1523, tres días antes del ataque",
     "orden": 4,
-    "coordenadas": [-86.05, 11.7],
+    "coordenadas": [
+      -86.05,
+      11.7
+    ],
     "certeza": "estimado",
+    "antes": "Los dirianes eran chorotegas que vivían entre la orilla sur del lago de Managua y la costa del Pacífico, con la meseta de Carazo y las llanuras de Masaya y Granada. Tenían sus jefes, sembraban maíz y cacao y comerciaban entre pueblos.",
     "texto": "La expedición avanzó hacia una zona que la carta de Gil González llama Nochari. Ahí lo visitó Diriangén con unos quinientos acompañantes, mujeres cubiertas de oro, banderas, trompeteros y regalos. Prometió volver en tres días para bautizarse. La visita está en la carta, pero no se sabe con certeza dónde queda hoy Nochari: el marcador está en un lugar aproximado.",
+    "linea_tiempo": [
+      {
+        "cuando": "Abril de 1523",
+        "que": "Diriangén visita a los españoles con unos quinientos acompañantes, mujeres cubiertas de oro, banderas, trompeteros y regalos.",
+        "fuente": "González Dávila (1524/1954)"
+      },
+      {
+        "cuando": "Tres días después",
+        "que": "En vez de volver para bautizarse, regresa con miles de guerreros.",
+        "fuente": "González Dávila (1524/1954)"
+      }
+    ],
     "fuente": "González Dávila (1524/1954)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Casas_de_Nicoya._Fernandez_de_Oviedo._Museo_del_Jade._Costa_Rica.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Casas_de_Nicoya._Fernandez_de_Oviedo._Museo_del_Jade._Costa_Rica.JPG",
+        "tipo": "dibujo",
+        "descripcion": "Casas indígenas de la región de Nicoya, dibujadas por Gonzalo Fernández de Oviedo en 1529.",
+        "credito": "Reproducción fotografiada por Rodtico21 · CC BY-SA 3.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Nicoya_polychrome_vessel%2C_Museo_de_Am%C3%A9rica.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Nicoya_polychrome_vessel,_Museo_de_Am%C3%A9rica.jpg",
+        "tipo": "objeto",
+        "descripcion": "Vasija policromada de la Gran Nicoya (1000–1500 d.C.) con la serpiente emplumada.",
+        "credito": "Simon Burchell · CC BY-SA 3.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Pre-Columbian_Polychrome_vessel._Nicoya_culture._Museo_del_Jade._Costa_Rica.jpg/1280px-Pre-Columbian_Polychrome_vessel._Nicoya_culture._Museo_del_Jade._Costa_Rica.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Pre-Columbian_Polychrome_vessel._Nicoya_culture._Museo_del_Jade._Costa_Rica.jpg",
+        "tipo": "objeto",
+        "descripcion": "Vasija prehispánica policromada de estilo Papagayo, región de Nicoya.",
+        "credito": "Rodtico21 · CC BY-SA 4.0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "batalla-diriamba",
@@ -64,12 +247,80 @@
     "categoria": "batalla",
     "fecha": "17 de abril de 1523",
     "orden": 5,
-    "coordenadas": [-86.239, 11.858],
+    "coordenadas": [
+      -86.239,
+      11.858
+    ],
     "certeza": "en_discusion",
+    "antes": "Diriamba era uno de los pueblos principales de los dirianes. Su mismo nombre viene de ellos. Cerca están los petroglifos de El Acetuno, con más de treinta grabados hechos antes de la llegada de los españoles.",
     "texto": "Es la versión más conocida por la gente. Viene de la tradición local de Diriamba, pero no la encontramos en ningún documento de la época.",
+    "linea_tiempo": [
+      {
+        "cuando": "Hacia el año 800 d.C.",
+        "que": "Los chorotegas se establecen en el Pacífico.",
+        "fuente": "Cruz Olivas (2018)"
+      },
+      {
+        "cuando": "Antes de 1523",
+        "que": "Los dirianes viven en la meseta; Diriamba es uno de sus pueblos principales.",
+        "fuente": "del Cid Lucero y Gabriel (2012)"
+      },
+      {
+        "cuando": "17 de abril de 1523",
+        "que": "Según la tradición local, la batalla fue en la Quebrada del Perro.",
+        "fuente": "Tradición local"
+      },
+      {
+        "cuando": "1917",
+        "que": "Se funda el club Diriangén FC, que lleva el nombre del cacique.",
+        "fuente": "Etapa 1 del proyecto"
+      },
+      {
+        "cuando": "Cada enero",
+        "que": "Fiestas de San Sebastián, con el Toro Huaco, El Güegüense y El Gigante.",
+        "fuente": "Ministerio de Educación (s.f.-a)"
+      }
+    ],
     "fuente": "Tradición local de Diriamba",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Diriamba_clocktower.jpg/1280px-Diriamba_clocktower.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Diriamba_clocktower.jpg",
+        "tipo": "foto",
+        "descripcion": "El centro de Diriamba con su reloj público, símbolo de la ciudad (2016).",
+        "credito": "Byralaal · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Petroglifo_Ometepe.jpg/1280px-Petroglifo_Ometepe.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Petroglifo_Ometepe.jpg",
+        "tipo": "foto",
+        "descripcion": "Petroglifo prehispánico en la isla de Ometepe, parecido a los grabados de El Acetuno.",
+        "credito": "Martin Kulldorff · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Fiesta_de_San_Sebasti%C3%A1n_%28Nicaragua%2C_2018%29_%2838921122975%29.jpg/1280px-Fiesta_de_San_Sebasti%C3%A1n_%28Nicaragua%2C_2018%29_%2838921122975%29.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Fiesta_de_San_Sebasti%C3%A1n_(Nicaragua,_2018)_(38921122975).jpg",
+        "tipo": "foto",
+        "descripcion": "Fiestas de San Sebastián en Diriamba, enero de 2018.",
+        "credito": "Jorge Mejía Peralta · CC BY 2.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Toro_Huaco.jpg/1280px-Toro_Huaco.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Toro_Huaco.jpg",
+        "tipo": "foto",
+        "descripcion": "El Toro Huaco, danza tradicional de herencia indígena y española.",
+        "credito": "Jorge Mejía Peralta · CC BY 2.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Estadio_Cacique_Diriangen%2C_Diriamba..JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Estadio_Cacique_Diriangen,_Diriamba..JPG",
+        "tipo": "foto",
+        "descripcion": "El Estadio Cacique Diriangén, en Diriamba.",
+        "credito": "Alejandro José Castro · CC BY-SA 3.0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "batalla-ochomogo",
@@ -78,12 +329,44 @@
     "categoria": "batalla",
     "fecha": "17 de abril de 1523",
     "orden": 5,
-    "coordenadas": [-85.92, 11.62],
+    "coordenadas": [
+      -85.92,
+      11.62
+    ],
     "certeza": "en_discusion",
+    "antes": "El sector del río Ochomogo queda entre las tierras de los dirianes y las de los nicaraos, en la parte baja, cerca del lago.",
     "texto": "El historiador Clemente Guido ubica el choque en el sector del río Ochomogo. Según Arellano, un día después del ataque los españoles ya chocaban con la gente de Nicarao. Si llegaron tan rápido a Rivas, con heridos y cargando oro, el lugar no podía estar lejos: en línea recta, el Ochomogo queda a unos 25 km de Rivas y Diriamba a unos 65 km. Por eso es la hipótesis que mejor encaja con la carta, pero no es un hecho comprobado.",
+    "linea_tiempo": [
+      {
+        "cuando": "17 de abril de 1523",
+        "que": "Según Clemente Guido, aquí fue el choque. Es nuestra hipótesis, no un hecho comprobado.",
+        "fuente": "Barricada (2023)"
+      },
+      {
+        "cuando": "18 de abril de 1523",
+        "que": "Un día después, los españoles ya chocan con la gente de Nicarao.",
+        "fuente": "Arellano (2023)"
+      }
+    ],
     "fuente": "Barricada (2023); Arellano (2023)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Looking_from_bridge_over_Rio_Ochomogo%2C_Nicaragua_-_DPLA_-_82d7cd96f9e9626b662ceeafbb9a6748.jpg/1280px-Looking_from_bridge_over_Rio_Ochomogo%2C_Nicaragua_-_DPLA_-_82d7cd96f9e9626b662ceeafbb9a6748.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Looking_from_bridge_over_Rio_Ochomogo,_Nicaragua_-_DPLA_-_82d7cd96f9e9626b662ceeafbb9a6748.jpg",
+        "tipo": "foto",
+        "descripcion": "El río Ochomogo visto desde el puente, en una foto antigua del siglo XX.",
+        "credito": "U.S. Bureau of Public Roads · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Estatua_de_Guerrero_Chorotega.jpg/1280px-Estatua_de_Guerrero_Chorotega.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Estatua_de_Guerrero_Chorotega.jpg",
+        "tipo": "representacion",
+        "descripcion": "Estatua de un guerrero chorotega.",
+        "credito": "javiermes · CC BY-SA 4.0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "batalla-nochari",
@@ -92,12 +375,44 @@
     "categoria": "batalla",
     "fecha": "17 de abril de 1523",
     "orden": 5,
-    "coordenadas": [-85.99, 11.66],
+    "coordenadas": [
+      -85.99,
+      11.66
+    ],
     "certeza": "en_discusion",
+    "antes": "Nochari es el nombre que da la carta de Gil González para la zona donde estaban los españoles cuando los visitó Diriangén.",
     "texto": "Es el nombre que da la carta de Gil González. Según la carta, Diriangén regresó con «tres o cuatro mil indios de guerra» y atacó al mediodía. Llevaban chalecos de algodón grueso, protecciones para la cabeza, escudos, arcos, flechas y lanzas. No se sabe con certeza dónde queda hoy Nochari: el marcador está en un lugar aproximado.",
+    "linea_tiempo": [
+      {
+        "cuando": "Abril de 1523",
+        "que": "Visita de Diriangén en Nochari.",
+        "fuente": "González Dávila (1524/1954)"
+      },
+      {
+        "cuando": "17 de abril de 1523, mediodía",
+        "que": "Ataque de «tres o cuatro mil indios de guerra», según la carta.",
+        "fuente": "González Dávila (1524/1954)"
+      }
+    ],
     "fuente": "González Dávila (1524/1954)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Estatua_de_Guerrero_Chorotega.jpg/1280px-Estatua_de_Guerrero_Chorotega.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Estatua_de_Guerrero_Chorotega.jpg",
+        "tipo": "representacion",
+        "descripcion": "Estatua de un guerrero chorotega.",
+        "credito": "javiermes · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Casas_de_Nicoya._Fernandez_de_Oviedo._Museo_del_Jade._Costa_Rica.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Casas_de_Nicoya._Fernandez_de_Oviedo._Museo_del_Jade._Costa_Rica.JPG",
+        "tipo": "dibujo",
+        "descripcion": "Casas indígenas de la región de Nicoya, dibujadas por Gonzalo Fernández de Oviedo en 1529.",
+        "credito": "Reproducción fotografiada por Rodtico21 · CC BY-SA 3.0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "batalla-coatega",
@@ -106,12 +421,44 @@
     "categoria": "batalla",
     "fecha": "17 de abril de 1523",
     "orden": 5,
-    "coordenadas": [-85.99, 11.79],
+    "coordenadas": [
+      -85.99,
+      11.79
+    ],
     "certeza": "en_discusion",
+    "antes": "La zona del Mombacho era parte del territorio de los dirianes.",
     "texto": "El historiador Jorge Eduardo Arellano ubica el enfrentamiento en Coatega, cerca del volcán Mombacho.",
+    "linea_tiempo": [
+      {
+        "cuando": "Antes de 1523",
+        "que": "Los dirianes ocupan la zona del Mombacho.",
+        "fuente": "del Cid Lucero y Gabriel (2012)"
+      },
+      {
+        "cuando": "17 de abril de 1523",
+        "que": "Según Arellano, el enfrentamiento fue en Coatega, cerca del Mombacho.",
+        "fuente": "Arellano (2023)"
+      }
+    ],
     "fuente": "Arellano (2023)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Mombacho_from_Nandasmo.jpg/1280px-Mombacho_from_Nandasmo.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Mombacho_from_Nandasmo.jpg",
+        "tipo": "foto",
+        "descripcion": "El volcán Mombacho visto desde Nandasmo, camino a Carazo.",
+        "credito": "Ryan Ballantyne · CC BY-SA 2.5 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mombacho_from_Laguna_Apoyo_cropped.jpg/1280px-Mombacho_from_Laguna_Apoyo_cropped.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Mombacho_from_Laguna_Apoyo_cropped.jpg",
+        "tipo": "foto",
+        "descripcion": "El volcán Mombacho visto desde la laguna de Apoyo.",
+        "credito": "Bulwersator · CC0 · Wikimedia Commons"
+      }
+    ]
   },
   {
     "id": "retirada",
@@ -120,11 +467,55 @@
     "categoria": "recorrido",
     "fecha": "18 de abril de 1523",
     "orden": 6,
-    "coordenadas": [-85.72, 11.3],
+    "coordenadas": [
+      -85.72,
+      11.3
+    ],
     "certeza": "confirmado",
+    "antes": "Los españoles habían reunido mucho oro en el viaje. El tesorero Andrés de Cereceda anotó 112 524 pesos de oro, de los cuales 18 818 los entregaron los caciques de Diriangén.",
     "texto": "Los españoles resistieron el ataque, pero se retiraron con el oro. Al pasar de nuevo por las tierras de Nicarao, el 18 de abril, la gente de Nicarao también los atacó. La expedición regresó a Panamá y la conquista se retrasó hasta 1524. Por eso se dice que Diriangén logró sacarlos de su territorio, al menos por un tiempo.",
+    "linea_tiempo": [
+      {
+        "cuando": "18 de abril de 1523",
+        "que": "Al retirarse, los españoles son atacados por la gente de Nicarao.",
+        "fuente": "Arellano (2023)"
+      },
+      {
+        "cuando": "1523",
+        "que": "La expedición regresa a Panamá con el oro.",
+        "fuente": "González Dávila (1524/1954)"
+      },
+      {
+        "cuando": "1524",
+        "que": "Llega la conquista definitiva.",
+        "fuente": "Etapa 2 del proyecto"
+      }
+    ],
     "fuente": "González Dávila (1524/1954); Arellano (2023)",
     "imagen": null,
-    "credito_imagen": null
+    "credito_imagen": null,
+    "imagenes": [
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Central_America_-_Cornelius_van_Wytfliet_1597.jpg/1280px-Central_America_-_Cornelius_van_Wytfliet_1597.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Central_America_-_Cornelius_van_Wytfliet_1597.jpg",
+        "tipo": "mapa",
+        "descripcion": "Mapa de Centroamérica de 1597, de Cornelius van Wytfliet.",
+        "credito": "Cornelis van Wytfliet · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg/1280px-Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Sumario_de_la_natural_y_general_historia_de_las_Indias_p3.jpg",
+        "tipo": "dibujo",
+        "descripcion": "Grabado del «Sumario de la natural historia de las Indias» de Gonzalo Fernández de Oviedo (1526).",
+        "credito": "Gonzalo Fernández de Oviedo · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Gil_Gonzalez_Davila.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Gil_Gonzalez_Davila.JPG",
+        "tipo": "dibujo",
+        "descripcion": "Retrato de Gil González Dávila, capitán de la expedición (dibujo de su época).",
+        "credito": "Autor desconocido · Dominio público · Wikimedia Commons"
+      }
+    ]
   }
 ]
