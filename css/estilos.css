@@ -29,7 +29,7 @@
   --certeza-discusion: #a04000;
   --certeza-discusion-fondo: #fdebd0;
 
-  --ancho-panel: 340px;
+  --ancho-panel: 380px;
 }
 
 * {
@@ -285,6 +285,160 @@ body {
 .boton-3d:focus-visible {
   outline: 3px solid var(--color-enfoque);
   outline-offset: 2px;
+}
+
+/* Carrusel de imágenes ilustrativas */
+.carrusel {
+  margin-top: 12px;
+}
+
+.carrusel-marco {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--color-oscuro);
+  touch-action: pan-y; /* deja subir y bajar el panel, pero no desliza la página de lado */
+}
+
+.carrusel-marco img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* se ve la imagen completa (mapas, vasijas y retratos son verticales) */
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.carrusel-aparece {
+  animation: aparecer 0.6s ease;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.carrusel-sello {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-blanco);
+  background: rgba(31, 42, 55, 0.8);
+  border-radius: 4px;
+}
+
+.carrusel-flecha {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 34px;
+  height: 34px;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-blanco);
+  background: rgba(31, 42, 55, 0.6);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carrusel-flecha:hover,
+.carrusel-flecha:focus-visible {
+  background: rgba(31, 42, 55, 0.9);
+  outline: 2px solid var(--color-blanco);
+}
+
+.carrusel-flecha-izq { left: 8px; }
+.carrusel-flecha-der { right: 8px; }
+
+.carrusel-descripcion {
+  margin: 6px 0 0;
+  font-size: 0.85rem;
+}
+
+.carrusel-credito {
+  margin: 2px 0 0;
+  font-size: 0.72rem;
+  color: var(--color-texto-suave);
+}
+
+.carrusel-credito a {
+  color: inherit;
+}
+
+.carrusel-puntos {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.carrusel-puntos button {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-borde);
+  cursor: pointer;
+}
+
+.carrusel-puntos button[aria-current="true"] {
+  background: var(--color-oscuro);
+}
+
+/* Secciones del panel */
+.panel-seccion h3 {
+  margin: 14px 0 4px;
+  font-size: 0.95rem;
+}
+
+.panel-seccion p {
+  margin: 0;
+}
+
+.panel-seccion .panel-texto {
+  margin: 0 0 12px;
+}
+
+/* Línea de tiempo de cada lugar */
+.linea-lugar {
+  margin: 4px 0 12px;
+  padding: 0 0 0 14px;
+  list-style: none;
+  border-left: 2px solid var(--color-borde);
+}
+
+.linea-lugar li {
+  position: relative;
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+}
+
+.linea-lugar li::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-recorrido);
+  border: 2px solid var(--color-blanco);
+}
+
+.linea-lugar strong {
+  display: block;
+}
+
+.linea-lugar small {
+  display: block;
+  color: var(--color-texto-suave);
+  font-style: italic;
 }
 
 .panel-figura {
