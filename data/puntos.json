@@ -184,6 +184,20 @@
         "tipo": "foto",
         "descripcion": "Los volcanes de Ometepe vistos desde San Jorge, en Rivas.",
         "credito": "Martin Kulldorff · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Lake_Nicaragua_from_Granada_2.jpg/1280px-Lake_Nicaragua_from_Granada_2.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Lake_Nicaragua_from_Granada_2.jpg",
+        "tipo": "foto",
+        "descripcion": "El lago Cocibolca desde el malecón de Granada (2017). Su tamaño explica por qué lo llamaron «Mar Dulce».",
+        "credito": "Byralaal · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/ISS006-E-33030_-_View_of_Nicaragua.jpg/1280px-ISS006-E-33030_-_View_of_Nicaragua.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:ISS006-E-33030_-_View_of_Nicaragua.jpg",
+        "tipo": "foto",
+        "descripcion": "La isla de Ometepe y sus dos volcanes en medio del lago, vistas desde la Estación Espacial Internacional (2003).",
+        "credito": "NASA (Johnson Space Center) · Dominio público · Wikimedia Commons"
       }
     ]
   },
@@ -365,6 +379,20 @@
         "tipo": "representacion",
         "descripcion": "Estatua de un guerrero chorotega.",
         "credito": "javiermes · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Batalla_de_Tepeaca.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Batalla_de_Tepeaca.jpg",
+        "tipo": "dibujo",
+        "descripcion": "Combate entre españoles e indígenas en el Lienzo de Tlaxcala (México, siglo XVI). No es de Nicaragua, pero muestra cómo se veían estas batallas en la época.",
+        "credito": "Cabildo de Tlaxcala · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Crossbow_with_Spanning_Lever_MET_DP282470.jpg/1280px-Crossbow_with_Spanning_Lever_MET_DP282470.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Crossbow_with_Spanning_Lever_MET_DP282470.jpg",
+        "tipo": "objeto",
+        "descripcion": "Ballesta española de hacia 1540, un arma como las que usaban los soldados de la expedición.",
+        "credito": "The Metropolitan Museum of Art · CC0 · Wikimedia Commons"
       }
     ]
   },
@@ -411,6 +439,20 @@
         "tipo": "dibujo",
         "descripcion": "Casas indígenas de la región de Nicoya, dibujadas por Gonzalo Fernández de Oviedo en 1529.",
         "credito": "Reproducción fotografiada por Rodtico21 · CC BY-SA 3.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Batalla_de_Cholula_de_acuerdo_al_Lienzo_de_Tlaxcala.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Batalla_de_Cholula_de_acuerdo_al_Lienzo_de_Tlaxcala.jpg",
+        "tipo": "dibujo",
+        "descripcion": "Batalla de Cholula en el Lienzo de Tlaxcala (México, siglo XVI): españoles e indígenas con escudos, arcos y lanzas.",
+        "credito": "Cabildo de Tlaxcala · Dominio público · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Helmet_used_by_the_French_and_Spanish_armies_in_the_16th_and_17th_centuries.jpg/1280px-Helmet_used_by_the_French_and_Spanish_armies_in_the_16th_and_17th_centuries.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Helmet_used_by_the_French_and_Spanish_armies_in_the_16th_and_17th_centuries.jpg",
+        "tipo": "objeto",
+        "descripcion": "Morrión, el casco de acero que usaban los soldados españoles en los siglos XVI y XVII.",
+        "credito": "Wilfredor · CC0 · Wikimedia Commons"
       }
     ]
   },
@@ -457,6 +499,20 @@
         "tipo": "foto",
         "descripcion": "El volcán Mombacho visto desde la laguna de Apoyo.",
         "credito": "Bulwersator · CC0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mombacho_taken_from_the_Pan-American_Highway.jpg/1280px-Mombacho_taken_from_the_Pan-American_Highway.jpg",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Mombacho_taken_from_the_Pan-American_Highway.jpg",
+        "tipo": "foto",
+        "descripcion": "El Mombacho cubierto de nubes, visto desde la carretera Panamericana cerca de El Calmito (2023).",
+        "credito": "FurlongWiki · CC BY-SA 4.0 · Wikimedia Commons"
+      },
+      {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mombacho_Volcano_-_From_Granada_City.JPG/1280px-Mombacho_Volcano_-_From_Granada_City.JPG",
+        "enlace": "https://commons.wikimedia.org/wiki/File:Mombacho_Volcano_-_From_Granada_City.JPG",
+        "tipo": "foto",
+        "descripcion": "El volcán Mombacho visto desde una calle de Granada (2011).",
+        "credito": "Silenzio76 · CC BY-SA 3.0 · Wikimedia Commons"
       }
     ]
   },
