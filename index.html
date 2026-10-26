@@ -34,14 +34,38 @@
         <p id="panel-fecha" class="panel-fecha"></p>
         <h2 id="panel-titulo" class="panel-titulo" tabindex="-1"></h2>
         <span id="panel-certeza" class="etiqueta-certeza"></span>
+        <!-- Carrusel de imágenes ilustrativas (lo llena interfaz.js) -->
+        <div id="carrusel" class="carrusel" tabindex="0" aria-roledescription="carrusel" aria-label="Imágenes del lugar" hidden>
+          <div class="carrusel-marco">
+            <img id="carrusel-imagen" alt="">
+            <span id="carrusel-sello" class="carrusel-sello"></span>
+            <button type="button" id="carrusel-anterior" class="carrusel-flecha carrusel-flecha-izq" aria-label="Imagen anterior">‹</button>
+            <button type="button" id="carrusel-siguiente" class="carrusel-flecha carrusel-flecha-der" aria-label="Imagen siguiente">›</button>
+          </div>
+          <p id="carrusel-descripcion" class="carrusel-descripcion"></p>
+          <p id="carrusel-credito" class="carrusel-credito"></p>
+          <div id="carrusel-puntos" class="carrusel-puntos"></div>
+        </div>
+
         <div class="panel-acciones">
           <button type="button" id="btn-ver-3d" class="boton-3d">Ver el lugar en 3D</button>
         </div>
-        <figure id="panel-figura" class="panel-figura" hidden>
-          <img id="panel-imagen" alt="">
-          <figcaption id="panel-credito"></figcaption>
-        </figure>
-        <p id="panel-texto" class="panel-texto"></p>
+
+        <section id="panel-antes" class="panel-seccion" hidden>
+          <h3>Cómo era antes</h3>
+          <p id="panel-antes-texto"></p>
+        </section>
+
+        <section class="panel-seccion">
+          <h3>Qué pasó aquí</h3>
+          <p id="panel-texto" class="panel-texto"></p>
+        </section>
+
+        <section id="panel-linea" class="panel-seccion" hidden>
+          <h3>Línea de tiempo del lugar</h3>
+          <ol id="panel-linea-lista" class="linea-lugar"></ol>
+        </section>
+
         <p class="panel-fuente">Fuente: <span id="panel-fuente"></span></p>
       </aside>
 
